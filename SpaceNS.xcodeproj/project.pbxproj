@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893B085727D0E43A00C20614 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893B085627D0E43A00C20614 /* CreateAccountController.swift */; };
 		897F55E827CD3AAB00E53C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F55E727CD3AAB00E53C68 /* AppDelegate.swift */; };
 		897F55EA27CD3AAB00E53C68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F55E927CD3AAB00E53C68 /* SceneDelegate.swift */; };
 		897F55EC27CD3AAB00E53C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F55EB27CD3AAB00E53C68 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		897F55F127CD3AAC00E53C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897F55F027CD3AAC00E53C68 /* Assets.xcassets */; };
 		897F55F427CD3AAC00E53C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897F55F227CD3AAC00E53C68 /* LaunchScreen.storyboard */; };
 		897F55FD27CD518600E53C68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F55FC27CD518600E53C68 /* LoginViewController.swift */; };
+		89BF823627D15E6200E6CD50 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF823527D15E6200E6CD50 /* SettingsController.swift */; };
+		89BF823827D1621100E6CD50 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF823727D1621100E6CD50 /* AccountController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893B085627D0E43A00C20614 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
 		897F55E427CD3AAB00E53C68 /* SpaceNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897F55E727CD3AAB00E53C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897F55E927CD3AAB00E53C68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		897F55F327CD3AAC00E53C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897F55F527CD3AAC00E53C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897F55FC27CD518600E53C68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		89BF823527D15E6200E6CD50 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		89BF823727D1621100E6CD50 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			children = (
 				897F55EB27CD3AAB00E53C68 /* ViewController.swift */,
 				897F55FC27CD518600E53C68 /* LoginViewController.swift */,
+				893B085627D0E43A00C20614 /* CreateAccountController.swift */,
+				89BF823527D15E6200E6CD50 /* SettingsController.swift */,
+				89BF823727D1621100E6CD50 /* AccountController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,10 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BF823827D1621100E6CD50 /* AccountController.swift in Sources */,
+				89BF823627D15E6200E6CD50 /* SettingsController.swift in Sources */,
 				897F55FD27CD518600E53C68 /* LoginViewController.swift in Sources */,
 				897F55EC27CD3AAB00E53C68 /* ViewController.swift in Sources */,
 				897F55E827CD3AAB00E53C68 /* AppDelegate.swift in Sources */,
 				897F55EA27CD3AAB00E53C68 /* SceneDelegate.swift in Sources */,
+				893B085727D0E43A00C20614 /* CreateAccountController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
